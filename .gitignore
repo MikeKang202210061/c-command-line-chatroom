@@ -1,0 +1,7 @@
+chatroom
+chatroom.exe
+*.o
+*.dat
+*.txt
+.vscode/
+.DS_Store
