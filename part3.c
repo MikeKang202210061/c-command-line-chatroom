@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 #include <ctype.h>
-#include "chat_system.h"
+#include "project.h"
 
 //message ui
 void manage_messages(char *current_user)

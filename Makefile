@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -std=c11 -Wall -Wextra
 TARGET = chatroom
-SOURCES = authentication.c contacts.c messages.c time_utils.c
+SOURCES = part1.c part2.c part3.c part4.c
 
-$(TARGET): $(SOURCES) chat_system.h
+$(TARGET): $(SOURCES) project.h
 	$(CC) $(CFLAGS) $(SOURCES) -o $(TARGET)
 
 clean:
